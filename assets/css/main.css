@@ -2781,6 +2781,9 @@ button:disabled,
 .tiles article > a h2 {
   margin: 0;
 }
+section a {
+  display: flex;
+}
 
 .tiles article > a .content {
   -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2822,12 +2825,12 @@ button:disabled,
   background-color: #8499e7;
 }
 
-body:not(.is-touch) .tiles article:hover > .image {
+/* body:not(.is-touch) .tiles article:hover > .image {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 body:not(.is-touch) .tiles article:hover > .image:before {
   background-color: #333333;
