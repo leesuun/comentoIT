@@ -58,8 +58,33 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <h1>Generic Page</h1>
-          <span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+          <h1>삽입정렬</h1>
+          <span class="main image" style="display: flex"
+            ><div style="background-color: wheat; width: 50%; height: 333px">
+              알고리즘 구현 공간
+            </div>
+
+            <div
+              style="
+                background-color: white;
+                width: 50%;
+                height: 333px;
+                text-align: top;
+              "
+            >
+              <pre><code>
+function solution(s) {
+	let answer = true;
+	let counter = 0; 
+	for(let i = 0; i < s.length; i++){
+			counter += s[i] === "(" ? 1 :-1;
+			if (counter < 0) return false; }
+	answer = counter === 0 ? true : false; 
+	return answer;
+								}</code></pre>
+            </div></span
+          >
+
           <p>
             Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
             primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
