@@ -1,0 +1,14 @@
+/* Wrapper */
+
+#wrapper > * > .inner {
+  width: 100%;
+  max-width: 68em;
+  margin: 0 auto;
+  padding: 0 2.5em;
+}
+
+@media screen and (max-width: 736px) {
+  #wrapper > * > .inner {
+    padding: 0 1.25em;
+  }
+}
